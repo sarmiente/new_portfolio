@@ -15,7 +15,7 @@ const pasos = [
     id: 2,
     title: 'Quantum',
     profilePic: '/assets/quantumlogo.svg',
-    link: 'https://office.myquantum.world/register/sarmiente?side=l',
+    link: 'https://office.myquantum.world/register/sarmiente?side=r',
     excerpt: 'Rendimientos de hasta 25% mensual.',
   },
   {
