@@ -2,6 +2,7 @@ import Head from 'next/head';
 import ThemeToggle from '../components/ThemeToggle';
 import { ThemeProvider } from 'next-themes';
 import Footer from '../components/Layout/Footer';
+import Widget from '../components/Widget';
 
 const pasos = [
   {
@@ -64,7 +65,7 @@ export default function Tree() {
       <ThemeProvider attribute="class">
         <div className="h-screen dark:bg-black py-6 bg-white body-font">
           <div className="m-auto px-6 space-y-8 md:px-12 lg:px-20">
-            <div className="container flex justify-between">
+            <div className="container flex justify-between mb-5">
               <span className="dark:text-white ml-3 text-2xl font-logo ">
                 Carlosarmiento
               </span>
@@ -73,6 +74,7 @@ export default function Tree() {
                 <ThemeToggle />
               </span>
             </div>
+            <Widget />
             <div className="mt-16+ grid gap-6 sm:grid-cols-3">
               {pasos.map(({ profilePic, title, excerpt, link }) => (
                 <a href={link} target="_blank">
