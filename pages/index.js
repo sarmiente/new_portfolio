@@ -60,7 +60,7 @@ export default function Tree() {
   return (
     <>
       <Head>
-        <title>Create Next App</title>
+        <title>Carlosarmiento - Links</title>
         <link
           rel="apple-touch-icon"
           sizes="180x180"
