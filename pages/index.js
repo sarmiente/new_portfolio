@@ -61,6 +61,19 @@ export default function Tree() {
     <>
       <Head>
         <title>Create Next App</title>
+        <link
+          rel="apple-touch-icon"
+          sizes="180x180"
+          href="/faviconsarmiente.svg"
+        />
+
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="/faviconsarmiente.svg"
+        />
+        <link rel="manifest" href="/site.webmanifest" />
       </Head>
       <ThemeProvider attribute="class">
         <div className="h-screen dark:bg-black py-6 bg-white body-font">
