@@ -9,7 +9,7 @@ const pasos = [
     id: 1,
     title: 'Sitio Web',
     profilePic: '/assets/frame1.svg',
-    link: '/home',
+    link: 'https://www.youtube.com/channel/UCPfWiFvY8lpeODn462i5_6A/?sub_confirmation=1',
     excerpt: 'Entra a mi pagina y mira mi trabajo.',
   },
   {
