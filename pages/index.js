@@ -9,7 +9,7 @@ const pasos = [
     id: 1,
     title: 'Youtube',
     profilePic: '/assets/youtubeicon.svg',
-    link: 'https://www.youtube.com/channel/UCPfWiFvY8lpeODn462i5_6A/?sub_confirmation=1',
+    link: 'https://www.youtube.com/@carlosarmiento/?sub_confirmation=1',
     excerpt: 'Mira mis videos y suscribete al canal.',
   },
   {
