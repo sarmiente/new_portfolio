@@ -1,7 +1,14 @@
 export default function Widget() {
   return (
     <>
-      <div
+      <script src="https://widgets.coingecko.com/coingecko-coin-price-marquee-widget.js"></script>
+      <coingecko-coin-price-marquee-widget
+        coin-ids="bitcoin,ethereum,eos,ripple,litecoin,dogecoin"
+        currency="usd"
+        
+        locale="en"
+      ></coingecko-coin-price-marquee-widget>
+      {/* <div
         style={{
           height: 35,
           backgroundColor: '#FFFFFF',
@@ -45,7 +52,7 @@ export default function Widget() {
             fontFamily: 'Verdana, Tahoma, Arial, sans-serif',
           }}
         ></div>
-      </div>
+      </div> */}
     </>
   );
 }
