@@ -13,13 +13,13 @@ const pasos = [
     link: 'https://www.youtube.com/@carlosarmiento/?sub_confirmation=1',
     excerpt: 'Mira mis videos y suscribete al canal.',
   },
-  {
+  /*   {
     id: 2,
     title: 'Sitio Web',
     profilePic: '/assets/frame1.svg',
     link: '/home',
     excerpt: 'Entra a mi pagina y mira mi trabajo.',
-  },
+  }, */
   {
     id: 3,
     title: 'Quantum',
@@ -27,19 +27,13 @@ const pasos = [
     link: 'https://office.myquantum.world/register/sarmiente?side=r',
     excerpt: 'Rendimientos de hasta 25% mensual.',
   },
-  {
-    id: 4,
-    title: 'Goarbit',
-    profilePic: '/assets/gologo.svg',
-    link: 'https://goarbit.com/auth/register?c=71899756',
-    excerpt: 'Obten rendimientos de 20% mensual.',
-  },
+
   {
     id: 5,
     title: 'Mediacoin',
     profilePic: '/assets/iconmediacoin.svg',
     link: 'https://mediacoin.inc/u/548540624',
-    excerpt: 'Obten rendimientos de 10% mensual.',
+    excerpt: 'Obten rendimientos de 20% mensual.',
   },
   {
     id: 6,
