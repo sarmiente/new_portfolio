@@ -68,6 +68,10 @@ export default function Tree() {
     <>
       <Head>
         <title>Carlosarmiento - Links</title>
+        <meta
+          name="google-site-verification"
+          content="pikzL5TwWZguhgY2bpjEL27u7lx7E3ALN8Db-SYNlxQ"
+        />
         <link
           rel="apple-touch-icon"
           sizes="180x180"
