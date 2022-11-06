@@ -72,6 +72,17 @@ export default function Tree() {
           name="google-site-verification"
           content="pikzL5TwWZguhgY2bpjEL27u7lx7E3ALN8Db-SYNlxQ"
         />
+
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}"
+        ></script>
+        <script>
+          window.dataLayer = window.dataLayer || []; function gtag()
+          {dataLayer.push(arguments)}
+          gtag('js', new Date()); gtag('config', '$
+          {process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}');
+        </script>
         <link
           rel="apple-touch-icon"
           sizes="180x180"
