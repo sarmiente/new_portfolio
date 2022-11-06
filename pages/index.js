@@ -3,6 +3,7 @@ import ThemeToggle from '../components/ThemeToggle';
 import { ThemeProvider } from 'next-themes';
 import Footer from '../components/Layout/Footer';
 import Widget from '../components/Widget';
+import Script from 'next/script';
 
 const pasos = [
   {
@@ -72,17 +73,22 @@ export default function Tree() {
           name="google-site-verification"
           content="pikzL5TwWZguhgY2bpjEL27u7lx7E3ALN8Db-SYNlxQ"
         />
+        <Script
+          strategy="lazyOnload"
+          src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
+        />
 
-        <script
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}"
-        ></script>
-        <script>
-          window.dataLayer = window.dataLayer || []; function gtag()
-          {dataLayer.push(arguments)}
-          gtag('js', new Date()); gtag('config', '$
-          {process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}');
-        </script>
+        <Script strategy="lazyOnload">
+          {`
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}', {
+        page_path: window.location.pathname,
+        });
+    `}
+        </Script>
+
         <link
           rel="apple-touch-icon"
           sizes="180x180"
