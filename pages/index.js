@@ -67,6 +67,10 @@ export default function Tree() {
           name="google-site-verification"
           content="pikzL5TwWZguhgY2bpjEL27u7lx7E3ALN8Db-SYNlxQ"
         />
+        <meta
+          name="p:domain_verify"
+          content="70355c79926cf892e8c3ee9f91b72aba"
+        />
         <Script
           strategy="lazyOnload"
           src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
