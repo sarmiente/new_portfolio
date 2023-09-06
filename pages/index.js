@@ -113,8 +113,8 @@ export default function Tree() {
                 <ThemeToggle />
               </span>
             </div>
-            <Widget />
-            <div className="mt-16+ grid gap-6 sm:grid-cols-3">
+            {/* <Widget /> */}
+            <div className="mt-16 grid gap-6 sm:grid-cols-3">
               {pasos.map(({ profilePic, title, excerpt, link }) => (
                 <a href={link} target="_blank">
                   <div className="relative group ">
