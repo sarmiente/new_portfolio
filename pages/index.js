@@ -2,16 +2,18 @@ import Head from 'next/head';
 import ThemeToggle from '../components/ThemeToggle';
 import { ThemeProvider } from 'next-themes';
 import Footer from '../components/Layout/Footer';
-import Widget from '../components/Widget';
+{
+  /*import Widget from '../components/Widget'; */
+}
 import Script from 'next/script';
 
 const pasos = [
   {
     id: 1,
-    title: 'Youtube',
-    profilePic: '/assets/youtubeicon.svg',
-    link: 'https://www.youtube.com/@carlosarmiento/?sub_confirmation=1',
-    excerpt: 'Mira mis videos y suscribete al canal.',
+    title: 'Swing Trading Forex',
+    profilePic: '/assets/shots_so.png',
+    link: 'https://go.hotmart.com/F86186334V',
+    excerpt: 'Ver curso',
   },
   /*   {
     id: 2,
