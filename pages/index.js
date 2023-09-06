@@ -24,15 +24,15 @@ const pasos = [
   }, */
   {
     id: 3,
-    title: 'Quantum',
-    profilePic: '/assets/quantumlogo.svg',
-    link: 'https://office.myquantum.world/register/sarmiente?side=r',
-    excerpt: 'Rendimientos de hasta 25% mensual.',
+    title: 'Mega Curso de Excel',
+    profilePic: '/assets/shots_sa.png',
+    link: 'https://go.hotmart.com/H85844445G',
+    excerpt: 'Ver curso',
   },
 
   {
     id: 5,
-    title: 'Mediacoin',
+    title: 'Máster en Cursos Online',
     profilePic: '/assets/iconmediacoin.svg',
     link: 'https://mediacoin.inc/u/548540624',
     excerpt: 'Obten rendimientos de 20% mensual.',
