@@ -11,7 +11,7 @@ const pasos = [
   {
     id: 1,
     title: 'Swing Trading Forex',
-    profilePic: '/assets/shots_so.png',
+    profilePic: '/assets/shots_so.svg',
     link: 'https://go.hotmart.com/F86186334V',
     excerpt: 'Ver curso',
   },
@@ -25,17 +25,17 @@ const pasos = [
   {
     id: 3,
     title: 'Mega Curso de Excel',
-    profilePic: '/assets/shots_sa.png',
+    profilePic: '/assets/shots_sa.svg',
     link: 'https://go.hotmart.com/H85844445G',
     excerpt: 'Ver curso',
   },
 
   {
     id: 5,
-    title: 'Máster en Cursos Online',
-    profilePic: '/assets/iconmediacoin.svg',
-    link: 'https://mediacoin.inc/u/548540624',
-    excerpt: 'Obten rendimientos de 20% mensual.',
+    title: 'Triunfa con TIKTOK ADS',
+    profilePic: '/assets/shots_si.svg',
+    link: 'https://go.hotmart.com/Y86261062P?ap=0c0e',
+    excerpt: 'Ver curso',
   },
   {
     id: 6,
