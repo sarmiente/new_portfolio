@@ -11,60 +11,54 @@ const pasos = [
   {
     id: 1,
     title: 'Swing Trading Forex',
-    profilePic: '/assets/shots_so.svg',
+    profilePic: '/assets/408shots_so.svg',
     link: 'https://go.hotmart.com/F86186334V',
     excerpt: 'Ver curso',
   },
-  /*   {
-    id: 2,
-    title: 'Sitio Web',
-    profilePic: '/assets/frame1.svg',
-    link: '/home',
-    excerpt: 'Entra a mi pagina y mira mi trabajo.',
-  }, */
   {
-    id: 3,
+    id: 2,
     title: 'Mega Curso de Excel',
-    profilePic: '/assets/shots_sa.svg',
+    profilePic: '/assets/65shots_so.svg',
     link: 'https://go.hotmart.com/H85844445G',
     excerpt: 'Ver curso',
   },
 
   {
-    id: 5,
+    id: 3,
     title: 'Triunfa con TIKTOK ADS',
-    profilePic: '/assets/shots_si.svg',
+    profilePic: '/assets/926shots_so.svg',
     link: 'https://go.hotmart.com/Y86261062P?ap=0c0e',
     excerpt: 'Ver curso',
   },
-  {
-    id: 6,
+
+  /*{
+    id: 4,
     title: 'Binance',
     profilePic: '/assets/binancelogo.svg',
     link: 'https://accounts.binance.com/en/register?ref=WE3OAKWI',
     excerpt: 'Registrate y gana un bono.',
   },
   {
-    id: 7,
+    id: 5,
     title: 'Bybit',
     profilePic: '/assets/bybitlogo.svg',
     link: 'https://www.bybit.com/es-ES/invite?ref=O2PN1K',
     excerpt: 'Registrate y gana un bono.',
   },
   {
-    id: 8,
+    id: 6,
     title: 'Github',
     profilePic: '/assets/githublogo.svg',
     link: 'https://github.com/sarmiente',
     excerpt: 'Mira mis proyectos.',
-  },
+  }, */
 ];
 
 export default function Tree() {
   return (
     <>
       <Head>
-        <title>Carlosarmiento - Links</title>
+        <title>Cursos Online</title>
         <meta
           name="google-site-verification"
           content="pikzL5TwWZguhgY2bpjEL27u7lx7E3ALN8Db-SYNlxQ"
