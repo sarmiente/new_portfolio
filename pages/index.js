@@ -22,15 +22,15 @@ const pasos = [
     link: 'https://go.hotmart.com/H85844445G',
     excerpt: 'Ver curso',
   },
-  /*
+
   {
     id: 3,
     title: 'Triunfa con TIKTOK ADS',
     profilePic: '/assets/926shots_so.svg',
-    link: 'https://go.hotmart.com/Y86261062P?ap=0c0e',
+    link: 'https://bit.ly/3Va5sTV',
     excerpt: 'Ver curso',
   },
-
+  /*
   {
     id: 4,
     title: 'Binance',
